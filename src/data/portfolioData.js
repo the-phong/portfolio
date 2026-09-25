@@ -58,3 +58,42 @@ export const skillGroups = [
     ],
   },
 ]
+
+export const interests = [
+  'Sports',
+  'Music',
+  'Gaming',
+  'Technology',
+  'Travelling',
+  'Reading',
+  'Gym',
+  'Movies',
+  'Photography',
+]
+
+export const journeyItems = [
+  {
+    stage: 'Foundation',
+    title: 'Building a programming mindset',
+    description:
+      'I developed my foundation through programming and technical problem solving, gradually learning how to break problems into smaller and more manageable parts.',
+  },
+  {
+    stage: 'University',
+    title: 'Studying Information Security at PTIT',
+    description:
+      'My studies have given me exposure to cybersecurity concepts while I continued strengthening my development skills through coursework and independent practice.',
+  },
+  {
+    stage: 'Practice',
+    title: 'Learning through real projects',
+    description:
+      'From building a Python Caro game to experimenting with post-quantum algorithms on blockchain workflows, projects have become an important part of how I learn.',
+  },
+  {
+    stage: 'Now',
+    title: 'Strengthening development and cybersecurity skills',
+    description:
+      'As a fourth-year student, I am focused on becoming more capable at building practical software while improving the security knowledge needed to understand and protect the systems I work with.',
+  },
+]

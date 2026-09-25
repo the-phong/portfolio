@@ -1,0 +1,141 @@
+.personalSide {
+  padding-block: clamp(4rem, 7vw, 6rem);
+  background: var(--color-panel);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(17rem, 0.85fr);
+  align-items: center;
+  gap: clamp(3rem, 8vw, 7rem);
+}
+
+.mainPanel {
+  padding: clamp(2rem, 5vw, 4rem);
+  background: var(--color-background);
+  border-radius: var(--small-radius);
+}
+
+.eyebrow,
+.principlesLabel {
+  color: var(--color-accent);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  margin-bottom: 0.9rem;
+}
+
+.mainPanel h2 {
+  margin-bottom: 1.25rem;
+  font-size: clamp(2.35rem, 4.7vw, 4.25rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+
+.introduction {
+  max-width: 39rem;
+  color: var(--color-text-secondary);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+}
+
+.interests {
+  display: flex;
+  margin: clamp(2rem, 4vw, 3rem) 0 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  list-style: none;
+}
+
+.interests li {
+  padding: 0.5rem 0.8rem;
+  background: var(--color-panel-elevated);
+  border-radius: var(--small-radius);
+  color: var(--color-text-primary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.principles {
+  width: 100%;
+}
+
+.principlesLabel {
+  margin-bottom: 1rem;
+  color: var(--color-accent-blue);
+}
+
+.principles ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.principles li {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: 1.25rem;
+  padding-block: clamp(1.35rem, 3vw, 2rem);
+  border-top: 1px solid var(--color-divider);
+}
+
+.principles li span {
+  color: var(--color-accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.principles li p {
+  font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.35;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .principles {
+    width: min(100%, 38rem);
+    justify-self: end;
+  }
+}
+
+@media (max-width: 540px) {
+  .personalSide {
+    padding-block: 4rem;
+  }
+
+  .mainPanel {
+    padding: 1.5rem;
+  }
+
+  .mainPanel h2 {
+    font-size: clamp(2.15rem, 10vw, 2.75rem);
+  }
+
+  .interests {
+    margin-top: 1.75rem;
+    gap: 0.55rem;
+  }
+
+  .interests li {
+    padding: 0.45rem 0.7rem;
+  }
+
+  .principles {
+    width: 100%;
+  }
+}
