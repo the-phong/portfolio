@@ -81,7 +81,7 @@
 }
 
 .secondaryButton:hover {
-  background: var(--color-background);
+  background: #183047;
 }
 
 @media (max-width: 800px) {
