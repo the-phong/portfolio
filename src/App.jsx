@@ -1,8 +1,10 @@
 import About from './components/About/About.jsx'
+import FutureDirection from './components/FutureDirection/FutureDirection.jsx'
 import Hero from './components/Hero/Hero.jsx'
 import Journey from './components/Journey/Journey.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
 import PersonalSide from './components/PersonalSide/PersonalSide.jsx'
+import Projects from './components/Projects/Projects.jsx'
 import Skills from './components/Skills/Skills.jsx'
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Skills />
         <PersonalSide />
         <Journey />
+        <Projects />
+        <FutureDirection />
       </main>
     </>
   )

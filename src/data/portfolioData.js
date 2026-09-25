@@ -97,3 +97,20 @@ export const journeyItems = [
       'As a fourth-year student, I am focused on becoming more capable at building practical software while improving the security knowledge needed to understand and protect the systems I work with.',
   },
 ]
+
+export const projects = [
+  {
+    name: 'Caro Game with Python',
+    repository: 'https://github.com/the-phong/Game_Caro',
+    description:
+      'A Pygame-based Caro game supporting two-player and player-vs-bot modes, including win detection, restart controls, and a simple bot that blocks threats and chooses moves near existing pieces.',
+    technologies: ['Python', 'Pygame', 'Game Logic'],
+  },
+  {
+    name: 'PQC Algorithm Comparison on Blockchain',
+    repository: 'https://github.com/the-phong/pqc-algorithm-comparison-on-blockchain',
+    description:
+      'A structured demo suite for comparing post-quantum algorithms in blockchain-oriented workflows, covering ML-DSA, Falcon, SPHINCS+ and ML-KEM with shared contracts, off-chain proof storage, and verification flows.',
+    technologies: ['Python', 'Solidity', 'Blockchain', 'Post-Quantum Cryptography'],
+  },
+]
